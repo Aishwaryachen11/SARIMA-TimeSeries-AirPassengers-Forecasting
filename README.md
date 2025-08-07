@@ -10,6 +10,9 @@ The project showcases end-to-end modeling:
 - Forecasting and performance evaluation using RMSE and MAPE
 - Visualization of predicted vs actual passenger counts
 
+Use this link to access the notebook in Google Colab:  
+[Open Colab Notebook](https://github.com/Aishwaryachen11/SARIMA-TimeSeries-AirPassengers-Forecasting/blob/main/SARIMA_AirPassengers_Project.ipynb)
+
 ## Why SARIMA?
 Time series data often exhibit both trend and seasonality. SARIMA (Seasonal ARIMA) extends ARIMA by directly modeling this seasonality.
 
@@ -50,6 +53,8 @@ Fitted on the full dataset (after stationarity induced).
 
 ## Forecast vs Actual Plot
 A plot comparing the predicted values to actual monthly passengers shows the model effectively captures the trend and seasonal patterns.
+
+<img src="https://github.com/Aishwaryachen11/SARIMA-TimeSeries-AirPassengers-Forecasting/blob/main/SARIMA_Forecast%20vs%20actual.png" alt="Model Architecture" width="550"/>
 
 ## Evaluation Metrics
 
